@@ -43,9 +43,9 @@
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="Renegades">
-            <info compressed="false">https://github.com/slicksamu/kodi/_repo/addons.xml</info>
-            <checksum>https://github.com/slicksamu/kodi/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/slicksamu/kodi/_repo/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/slicksamu/kodi/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/slicksamu/kodi/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/slicksamu/kodi/_repo/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
