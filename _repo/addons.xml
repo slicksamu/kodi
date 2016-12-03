@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon
+  id="pvr.iptvImagenio"
+  version="1.0.57"
+  name="PVR IPTV Imagenio Helix"
+  provider-name="Victor Juidiaz">
+  <requires>
+  </requires>
+  <extension
+     point="xbmc.pvrclient"
+     library_linux="Kodi_IPTV_Imagenio.pvr"
+     library_wingl="Kodi_IPTV_Imagenio_win32.dll"
+     library_windx="Kodi_IPTV_Imagenio_win32.dll"
+     library_android="libKodi_IPTV_Imagenio.so"
+     library_osx="Kodi_IPTV_Imagenio.pvr"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">XBMC PVR addon for Imagenio Movistar</summary>
+    <summary lang="es">XBMC PVR para imagenio Movistar</summary>
+    <description lang="en">IPTV PVR Client support streaming of Live TV for multicast/unicast sources and EPG.</description>
+    <description lang="es">Cliente IPTV para Imagenio television.</description>
+    <disclaimer lang="en">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="es">Este software no es estable. No nos hacemos responsables de su correcto funcionamiento.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.renegades" name="Renegades Repo" version="1.0" provider-name="Anthony, podgod">
+	<extension point="xbmc.addon.repository" name="Renegades Addon Repository">
+		<info compressed="false">http://offshoregit.com/Renegades/repo/addons.xml</info>
+		<checksum>http://offshoregit.com/Renegades/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://offshoregit.com/Renegades/repo/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Addons From Renegades</summary>
+		<description>Download and install addons from Renegades!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+    <addon id="repository.name" name="Renegades" version="1.0" provider-name="Your Name">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Renegades">
+            <info compressed="false">https://github.com/slicksamu/kodi/_repo/addons.xml</info>
+            <checksum>https://github.com/slicksamu/kodi/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/slicksamu/kodi/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>A short summary of this addon</summary>
+            <description>The description can be longer. Using [CR] you can create a newline. The use of other markup is not advised.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
